@@ -1,3 +1,4 @@
+--trigger bot use w sil dont leak any of these 
 getgenv().nigger = true
 
 local player = game.Players.LocalPlayer
