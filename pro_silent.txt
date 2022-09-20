@@ -1,0 +1,26 @@
+--[[
+
+
+
+        ██████       ██████      ██       ████████
+      ████████      ████████     ██       ████████
+      ████         ███    ██     ██          ██
+      ██           ██     ██     ██          ██
+      █████        ██    ███     ██          ██
+      ████████     ████████      ██████      ██
+         █████      ██████       ██████      ██
+         
+         -- resolver made by colt, dont pick people up it will make you slightly cframe.
+]]
+
+loadstring(game:HttpGet("https://pastebin.com/raw/zVeEZTs6"))()
+DaHoodSettings.Prediction = 0.1437 -- lower for lower ping and higher for higher ping.
+Aiming.FOV = 11.5 -- size of silent aim
+Aiming.FOVSides = 25 -- how smooth silent aim circle is
+Aiming.HitChance = 100 
+Aiming.ShowFOV = false
+
+ getgenv().AimlockKey = "c" -- aimbot toggle
+ getgenv().AimPart = "UpperTorso" -- UpperTorso, LowerTorso, HumanoidRootPart, Head
+ getgenv().PredictionVelocity = 3 -- aimbot prediction.
+ getgenv().SmoothnessAmount = 0.009 -- dont go over 0.01 to look legit
