@@ -1,0 +1,5 @@
+-- execute as soon as u join
+wait()
+until
+game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/GodV3"))()
